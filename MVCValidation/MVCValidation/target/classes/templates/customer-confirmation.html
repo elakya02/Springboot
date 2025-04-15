@@ -1,0 +1,18 @@
+<!DOCTYPE html>
+<html lang="en" xmlns:th="http://www.w3.org/1999/xhtml">
+<head>
+    <meta charset="UTF-8">
+    <title>Confirmation page</title>
+</head>
+<body>
+The Customer is Confirmer:<span th:text="${customer.firstName + ' ' + customer.lastName}"/>
+<br>
+The number of freepasses are = <span th:text="${customer.Freepass}"></span>
+<br>
+The Postal code is <span th:text="${customer.PostalCode}"></span>
+
+<br>
+The Course code is <span th:text="${customer.courseCode}"></span>
+
+</body>
+</html>
